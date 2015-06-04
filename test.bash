@@ -17,3 +17,6 @@ echo aaa bbb NG > $tmp-ans
 diff $tmp-ans $tmp-out || ERROR_EXIT "TEST1-2"
 
 echo OK
+rm -f $tmp-*
+exit 0
+
